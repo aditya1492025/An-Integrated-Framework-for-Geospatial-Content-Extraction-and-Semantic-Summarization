@@ -1,0 +1,12 @@
+# Ignore large local models and transformer files
+local_models/
+Trained_spacy_model/model-best/transformer/model
+Trained_spacy_model/model-last/transformer/model
+
+# Optionally ignore all transformer models
+# Trained_spacy_model/**/transformer/model
+
+# Optional: ignore all .safetensors files
+*.safetensors
+# Optional: ignore all .bin files
+*.bin

@@ -1,0 +1,66 @@
+{
+  "lang": "en",
+  "name": "pipeline",
+  "version": "0.0.0",
+  "spacy_version": ">=3.8.2,<3.9.0",
+  "description": "",
+  "author": "",
+  "email": "",
+  "url": "",
+  "license": "",
+  "spacy_git_version": "63f1b53",
+  "vectors": {
+    "width": 0,
+    "vectors": 0,
+    "keys": 0,
+    "name": null,
+    "mode": "default"
+  },
+  "labels": {
+    "transformer": [],
+    "ner": [
+      "DISTRICT",
+      "STATE",
+      "SUBDISTRICT",
+      "TOWN"
+    ]
+  },
+  "pipeline": [
+    "transformer",
+    "ner"
+  ],
+  "components": [
+    "transformer",
+    "ner"
+  ],
+  "disabled": [],
+  "performance": {
+    "ents_f": 0.9063780072693706,
+    "ents_p": 0.8889910593028519,
+    "ents_r": 0.9244586324585148,
+    "ents_per_type": {
+      "DISTRICT": {
+        "p": 0.7943184099578398,
+        "r": 0.9603155339805826,
+        "f": 0.8694648939676959
+      },
+      "STATE": {
+        "p": 0.9240353908172347,
+        "r": 0.9451643997001178,
+        "f": 0.9344804765056254
+      },
+      "SUBDISTRICT": {
+        "p": 0.8460627122660137,
+        "r": 0.8276288341188287,
+        "f": 0.8367442587095766
+      },
+      "TOWN": {
+        "p": 0.9816335122618671,
+        "r": 0.9383268776095377,
+        "f": 0.9594917826187598
+      }
+    },
+    "transformer_loss": 1256.4374256279734,
+    "ner_loss": 5207.892288483888
+  }
+}
