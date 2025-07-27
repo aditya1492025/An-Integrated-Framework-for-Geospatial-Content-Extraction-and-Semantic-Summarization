@@ -21,10 +21,6 @@ The **only** individuals permitted to access this repository are:
 
 - Official IEEE peer reviewers assigned to evaluate the submitted paper.
 
-They may:
-- View the codebase **solely for review and evaluation purposes**
-- **NOT** use, copy, or distribute any part of the code
-
 ---
 
 ## ❌ Unauthorized Use Is Prohibited
