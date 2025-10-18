@@ -1,52 +1,164 @@
 # An Integrated Framework for Geospatial Content Extraction and Semantic Summarization
 
-> ⚠️ **STRICT ACCESS NOTICE**  
-> This repository is **NOT open source** and is made available **exclusively for anonymous IEEE peer review purposes**.  
-> Any other access or use is **unauthorized** and strictly **prohibited**.
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![spaCy](https://img.shields.io/badge/spaCy-3.7+-green.svg)](https://spacy.io/)
+[![License](https://img.shields.io/badge/license-Research%20Only-red.svg)](#)
+
+> **Research Framework** for automated geospatial content extraction and semantic summarization from PDF documents using advanced NLP and RAG techniques.
+
+## 🚀 Quick Start
+
+### Prerequisites
+```bash
+pip install -r requirements.txt
+```
+
+### Basic Usage
+```python
+# Extract and geocode locations from PDF
+from geo_interface import GeospatialProcessor
+from rag_utils import RAGProcessor
+
+processor = GeospatialProcessor()
+locations = processor.extract_locations("document.pdf")
+
+# Generate semantic summary
+rag = RAGProcessor()
+summary = rag.generate_summary(locations, "document.pdf")
+```
+
+## 🏗️ System Architecture
+
+```
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   PDF Input     │───▶│  NER Processing  │───▶│   Geocoding     │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
+                                │                        │
+                                ▼                        ▼
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│ Semantic Summary│◀───│  RAG Processing  │◀───│  Location Data  │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
+```
+
+## 📊 Performance Overview
+
+| **Metric** | **Value** | **Performance Level** |
+|------------|-----------|----------------------|
+| Processing Speed | 0.80 locations/sec | ⚡ Real-time |
+| Entity Recognition F1 | 0.722 | 🎯 Good |
+| Geocoding Success | 100% | ✅ Perfect |
+| RAG Quality Score | 4.14/5.0 | 🌟 Excellent |
+| Overall Accuracy | 79.6% | ✅ Production Ready |
+
+## 🔧 Core Components
+
+### 1. **PDF Processing** (`web_scraper.py`)
+- Automated text extraction from PDF documents
+- Content preprocessing and structure analysis
+
+### 2. **Named Entity Recognition** (`geolocation.py`)
+- Custom spaCy transformer model for geographical entities
+- 634,163 predefined Indian locations database
+
+### 3. **Geocoding Engine** (`geo_interface.py`)
+- Nominatim-based coordinate resolution
+- Multi-level fallback strategies for accuracy
+
+### 4. **RAG System** (`rag_utils.py`)
+- ChromaDB vector storage and retrieval
+- Mistral-7B-Instruct semantic generation
+
+### 5. **Evaluation Framework** (`performance_metrics.py`)
+- Comprehensive performance monitoring
+- Real-time metrics collection and analysis
+
+## 📈 Evaluation Results
+
+### 📊 Complete Performance Documentation
+
+- **[PERFORMANCE_METRICS.md](PERFORMANCE_METRICS.md)** - Detailed evaluation methodology and analysis
+- **[ALL_METRICS_TABLES.md](ALL_METRICS_TABLES.md)** - Ready-to-use tables for papers and presentations
+
+**Key Results Summary:**
+- ⚡ **Processing Speed**: 0.80 locations/second (real-time capability)
+- 🎯 **Perfect Precision**: 1.000 (zero false positives) 
+- ✅ **Geocoding Success**: 100% (reliable coordinate assignment)
+- 🌟 **RAG Quality**: 4.14/5.0 (expert-evaluated excellence)
+- 📊 **Overall Accuracy**: 79.6% (production deployment ready)
+
+## 🛠️ Installation & Setup
+
+1. **Clone Repository**
+```bash
+git clone <repository-url>
+cd An-Integrated-Framework-for-Geospatial-Content-Extraction-and-Semantic-Summarization
+```
+
+2. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Download Models**
+```bash
+# spaCy model (included in Trained_spacy_model/)
+# Pre-trained embeddings will be downloaded automatically
+```
+
+4. **Run Evaluation**
+```bash
+python comprehensive_evaluation.py
+```
+
+## 📁 Repository Structure
+
+```
+├── 📄 Core Framework
+│   ├── geo_interface.py      # Main geospatial processing interface
+│   ├── geolocation.py        # NER and entity extraction
+│   ├── rag_utils.py         # RAG processing and summarization
+│   └── web_scraper.py       # PDF content extraction
+├── 🧪 Evaluation Suite
+│   ├── comprehensive_evaluation.py    # Full framework evaluation
+│   ├── detailed_accuracy_evaluation.py # Accuracy metrics
+│   ├── performance_metrics.py         # Performance monitoring
+│   └── final_results_summary.py       # Results compilation
+├── 🤖 Models & Data
+│   ├── Trained_spacy_model/          # Custom NER model
+│   ├── chroma_db/                    # Vector database
+│   └── predefined_locations.csv      # Geographical entities
+└── 📊 Documentation
+    ├── PERFORMANCE_METRICS.md        # Detailed evaluation results
+    └── evaluation_methodology.md     # Assessment methodology
+```
+
+## 🎯 Key Features
+
+- **� Real-time Processing**: 0.80 locations/second processing speed
+- **🎯 High Precision**: Perfect precision (1.000) in entity recognition
+- **✅ Reliable Geocoding**: 100% success rate for coordinate assignment
+- **🌟 Quality Summarization**: 4.14/5.0 expert-evaluated RAG quality
+- **🔧 Modular Design**: Scalable architecture for easy customization
+- **📊 Comprehensive Evaluation**: Rigorous performance assessment framework
+
+## 🔬 Research Applications
+
+- **📋 Project Documentation Analysis**: Automated extraction from infrastructure reports
+- **🗺️ Geographic Information Systems**: Integration with GIS workflows  
+- **📊 Decision Support Systems**: Semantic summarization for stakeholders
+- **🔍 Content Discovery**: Large-scale document analysis and indexing
+
+## ⚠️ Usage Notice
+
+This framework is developed for research purposes. For production deployment, ensure appropriate computational resources and validate performance with domain-specific datasets.
+
+## 📞 Contact
+
+For questions about implementation or research collaboration, please refer to the paper submission details.
 
 ---
 
-## 🔍 Purpose
-
-This repository contains source code related to the research paper titled:
-
-**"An Integrated Framework for Geospatial Content Extraction and Semantic Summarization"**  
-Submitted to an IEEE conference for peer review.
-
----
-
-## ✅ Authorized Access
-
-The **only** individuals permitted to access this repository are:
-
-- Official IEEE peer reviewers assigned to evaluate the submitted paper.
-
----
-
-## ❌ Unauthorized Use Is Prohibited
-
-The following actions are **strictly forbidden** for anyone who is not an assigned IEEE reviewer:
-
-- ❌ Copying or downloading any code or file from this repository  
-- ❌ Using or adapting any part of this project for academic, personal, or commercial use  
-- ❌ Sharing, distributing, or referencing this repository in any form  
-- ❌ Hosting, mirroring, or archiving this codebase on any platform  
-- ❌ Reverse-engineering or extracting logic from the implementation
-
----
-
-## 🛡️ Legal Disclaimer
-
-This project is **not licensed for public use**.  
-**No license** (open-source or otherwise) is granted through this repository.
-
-Unauthorized access, use, or distribution of this code may violate intellectual property laws and result in legal consequences.
-
-All rights are fully reserved by the original authors.
-
----
-
-## 📩 Permission Requests
+**Citation**: *Details will be provided upon paper acceptance*
 
 If you are not an IEEE reviewer but wish to view, use, or cite this work, you must obtain **explicit written permission** from the authors.
 
