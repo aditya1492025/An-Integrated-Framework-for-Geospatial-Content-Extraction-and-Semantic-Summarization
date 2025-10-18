@@ -227,10 +227,22 @@
 - **Consistency**: 95.7% score stability across runs
 
 ### Evaluation Environment
-- **OS**: Windows 11
+- **OS**: Microsoft Windows 11 Home Single Language (Build 26100)
 - **Python**: 3.8.10
-- **Hardware**: CUDA-enabled GPU
+- **Hardware**: HP Victus Gaming Laptop 15-fa0xxx
 - **Date**: October 18, 2025
+
+#### Detailed System Specifications
+| **Component** | **Specification** | **Details** |
+|---------------|-------------------|-------------|
+| **System** | HP Victus Gaming Laptop 15-fa0xxx | x64-based PC |
+| **CPU** | Intel Core i5-12450H | 8 cores, 12 logical processors, 2.0 GHz base |
+| **Memory** | 16 GB RAM | 16,052 MB total physical memory |
+| **Primary GPU** | NVIDIA GeForce GTX 1650 | 4 GB VRAM (4,293,918,720 bytes) |
+| **Integrated Graphics** | Intel UHD Graphics | 1 GB shared memory |
+| **Storage** | KIOXIA KXG80ZNV512G | 512 GB NVMe SSD |
+| **Operating System** | Windows 11 Home Single Language | Build 10.0.26100 |
+| **BIOS** | AMI F.28 | Updated 19-08-2024 |
 
 ### Reproduction Commands
 ```bash
