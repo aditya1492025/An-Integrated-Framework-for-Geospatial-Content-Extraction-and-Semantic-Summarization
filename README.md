@@ -186,5 +186,4 @@ For permissions or inquiries, please contact:
 
 ## 📎 Notes
 
-- This repository may be removed or made private after the peer review process ends.
 - Please respect the boundaries of the academic review process and intellectual ownership.
