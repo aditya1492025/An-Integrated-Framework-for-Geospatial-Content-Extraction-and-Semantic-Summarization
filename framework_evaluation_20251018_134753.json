@@ -1,0 +1,246 @@
+{
+  "evaluation_metadata": {
+    "timestamp": "2025-10-18T13:47:53.171269",
+    "framework_version": "1.0",
+    "evaluation_type": "comprehensive_framework_assessment"
+  },
+  "computational_efficiency": {
+    "evaluation_timestamp": "2025-10-18T13:47:53.100903",
+    "total_documents_processed": 3,
+    "total_processing_time": 16.224977800000488,
+    "average_processing_time_per_document": 0.35851819999940443,
+    "total_locations_extracted": 13,
+    "average_locations_per_document": 4.333333333333333,
+    "total_locations_tested_for_geocoding": 12,
+    "total_successfully_geocoded": 12,
+    "overall_geocoding_success_rate": 100.0,
+    "average_geocoding_time": 5.047926966666637,
+    "processing_speed_locations_per_second": 0.8012337619346147,
+    "detailed_results": [
+      {
+        "text_id": 1,
+        "processing_time": 0.4575636999998096,
+        "locations_found": 3,
+        "locations_tested_for_geocoding": 3,
+        "successfully_geocoded": 3,
+        "geocoding_success_rate": 100.0,
+        "geocoding_time": 3.924844099999973,
+        "extracted_locations": [
+          [
+            "Aurangabad",
+            "DISTRICT"
+          ],
+          [
+            "Nashik",
+            "DISTRICT"
+          ],
+          [
+            "Pune",
+            "DISTRICT"
+          ]
+        ],
+        "geocoded_locations": [
+          {
+            "original": "Aurangabad",
+            "type": "DISTRICT",
+            "display_name": "Chhatrapati Sambhaji Nagar, Chhatrapati Sambhajinagar, Maharashtra, 431002, India",
+            "latitude": 19.877263,
+            "longitude": 75.3390241
+          },
+          {
+            "original": "Nashik",
+            "type": "DISTRICT",
+            "display_name": "Nashik, Nashik Taluka, Nashik, Maharashtra, 422001, India",
+            "latitude": 20.0112475,
+            "longitude": 73.7902364
+          },
+          {
+            "original": "Pune",
+            "type": "DISTRICT",
+            "display_name": "Pune City, Pune, Maharashtra, India",
+            "latitude": 18.5213738,
+            "longitude": 73.8545071
+          }
+        ]
+      },
+      {
+        "text_id": 2,
+        "processing_time": 0.3026739999986603,
+        "locations_found": 6,
+        "locations_tested_for_geocoding": 5,
+        "successfully_geocoded": 5,
+        "geocoding_success_rate": 100.0,
+        "geocoding_time": 6.410289400000693,
+        "extracted_locations": [
+          [
+            "Ajmer",
+            "DISTRICT"
+          ],
+          [
+            "Bikaner",
+            "DISTRICT"
+          ],
+          [
+            "Churu",
+            "DISTRICT"
+          ],
+          [
+            "Jaipur",
+            "DISTRICT"
+          ],
+          [
+            "Sikar",
+            "DISTRICT"
+          ],
+          [
+            "Udaipur",
+            "DISTRICT"
+          ]
+        ],
+        "geocoded_locations": [
+          {
+            "original": "Ajmer",
+            "type": "DISTRICT",
+            "display_name": "Ajmer, Ajmer Tehsil, Ajmer, Rajasthan, India",
+            "latitude": 26.4691,
+            "longitude": 74.639
+          },
+          {
+            "original": "Bikaner",
+            "type": "DISTRICT",
+            "display_name": "Bikaner, Bikaner Tehsil, Bikaner, Rajasthan, 334001, India",
+            "latitude": 28.0159286,
+            "longitude": 73.3171367
+          },
+          {
+            "original": "Churu",
+            "type": "DISTRICT",
+            "display_name": "Churu, Rajasthan, India",
+            "latitude": 28.2047781,
+            "longitude": 74.6912996
+          },
+          {
+            "original": "Jaipur",
+            "type": "DISTRICT",
+            "display_name": "Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India",
+            "latitude": 26.9154576,
+            "longitude": 75.8189817
+          },
+          {
+            "original": "Sikar",
+            "type": "DISTRICT",
+            "display_name": "Sikar, Rajasthan, India",
+            "latitude": 27.6625058,
+            "longitude": 75.0279905
+          }
+        ]
+      },
+      {
+        "text_id": 3,
+        "processing_time": 0.3153168999997433,
+        "locations_found": 4,
+        "locations_tested_for_geocoding": 4,
+        "successfully_geocoded": 4,
+        "geocoding_success_rate": 100.0,
+        "geocoding_time": 4.808647399999245,
+        "extracted_locations": [
+          [
+            "Alappuzha",
+            "DISTRICT"
+          ],
+          [
+            "Kannur",
+            "DISTRICT"
+          ],
+          [
+            "Palakkad",
+            "DISTRICT"
+          ],
+          [
+            "Thiruvananthapuram",
+            "DISTRICT"
+          ]
+        ],
+        "geocoded_locations": [
+          {
+            "original": "Alappuzha",
+            "type": "DISTRICT",
+            "display_name": "Alappuzha, Kerala, India",
+            "latitude": 9.5006651,
+            "longitude": 76.4124143
+          },
+          {
+            "original": "Kannur",
+            "type": "DISTRICT",
+            "display_name": "Kannur, Kerala, India",
+            "latitude": 11.8763836,
+            "longitude": 75.3737973
+          },
+          {
+            "original": "Palakkad",
+            "type": "DISTRICT",
+            "display_name": "Palakkad, Kerala, India",
+            "latitude": 10.7873691,
+            "longitude": 76.4742172
+          },
+          {
+            "original": "Thiruvananthapuram",
+            "type": "DISTRICT",
+            "display_name": "Thiruvananthapuram, Kerala, 695001, India",
+            "latitude": 8.4882267,
+            "longitude": 76.947551
+          }
+        ]
+      }
+    ]
+  },
+  "geocoding_accuracy": {
+    "success_rate": 100.0,
+    "avg_processing_time": 5.047926966666637,
+    "total_entities_tested": 12
+  },
+  "rag_quality": {
+    "total_summaries_generated": 3,
+    "average_generation_time": 6.586666666666667,
+    "average_summary_length": 408.6666666666667,
+    "average_relevance": 4.233333333333333,
+    "average_coherence": 4.133333333333333,
+    "average_completeness": 4.066666666666666,
+    "overall_quality_score": 4.144444444444445,
+    "detailed_results": [
+      {
+        "project": "Maharashtra Urban Development Project",
+        "generation_time": 6.74,
+        "summary_length": 424,
+        "quality_scores": {
+          "relevance": 4.2,
+          "coherence": 4.1,
+          "completeness": 3.9
+        },
+        "overall_quality": 4.066666666666666
+      },
+      {
+        "project": "Rajasthan Solar Energy Initiative",
+        "generation_time": 6.4,
+        "summary_length": 390,
+        "quality_scores": {
+          "relevance": 4.0,
+          "coherence": 4.3,
+          "completeness": 4.1
+        },
+        "overall_quality": 4.133333333333333
+      },
+      {
+        "project": "Kerala Coastal Management Project",
+        "generation_time": 6.62,
+        "summary_length": 412,
+        "quality_scores": {
+          "relevance": 4.5,
+          "coherence": 4.0,
+          "completeness": 4.2
+        },
+        "overall_quality": 4.233333333333333
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+# Core Framework Dependencies
+# An Integrated Framework for Geospatial Content Extraction and Semantic Summarization
+# Generated: October 2025
+
+# Core ML and NLP Libraries
+torch>=2.0.0
+transformers>=4.40.0
+spacy>=3.8.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.8.0/en_core_web_trf-3.8.0-py3-none-any.whl
+
+# Vector Database and RAG
+chromadb>=1.0.0
+langchain>=0.2.0
+
+# Geospatial and Geocoding
+geopy>=2.4.0
+
+# PDF Processing
+pdfplumber>=0.11.0
+
+# Web Scraping
+requests>=2.32.0
+beautifulsoup4>=4.12.0
+
+# Quantization and Optimization
+bitsandbytes>=0.46.0
+accelerate>=1.8.0
+
+# Streamlit Web Framework
+streamlit>=1.40.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.24.0
+
+# Performance and Monitoring
+psutil>=6.1.0
+
+# Additional Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0

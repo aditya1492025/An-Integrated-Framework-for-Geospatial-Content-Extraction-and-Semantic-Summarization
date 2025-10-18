@@ -1,0 +1,24 @@
+document_id,entity_text,entity_type,expected_lat,expected_lon,is_valid_location,context
+DOC001,Maharashtra,STATE,19.7515,75.7139,True,Project state location
+DOC001,Pune,DISTRICT,18.5204,73.8567,True,Implementation district
+DOC001,Mumbai,DISTRICT,19.076,72.8777,True,Implementation district
+DOC001,Nashik,DISTRICT,20.0112,73.7902,True,Coverage area
+DOC001,Aurangabad,DISTRICT,19.8773,75.339,True,Coverage area
+DOC001,Solapur,DISTRICT,17.6599,75.9064,True,Coverage area
+DOC002,Rajasthan,STATE,27.0238,74.2179,True,Project state
+DOC002,Jodhpur,DISTRICT,26.2389,73.0243,True,Implementation area
+DOC002,Jaipur,DISTRICT,26.9124,75.7873,True,Implementation area
+DOC002,Udaipur,DISTRICT,24.5854,73.7125,True,Implementation area
+DOC002,Bikaner,DISTRICT,28.0229,73.3119,True,Installation site
+DOC002,Ajmer,DISTRICT,26.4499,74.6399,True,Installation site
+DOC002,Kota,DISTRICT,25.2138,75.8648,True,Installation site
+DOC002,Churu,DISTRICT,28.2048,74.6913,True,Rural electrification
+DOC002,Sikar,DISTRICT,27.6094,75.1379,True,Rural electrification
+DOC003,Kerala,STATE,10.8505,76.2711,True,Project state
+DOC003,Thiruvananthapuram,DISTRICT,8.5241,76.9366,True,Coastal management area
+DOC003,Kochi,DISTRICT,9.9312,76.2673,True,Coastal management area
+DOC003,Kozhikode,DISTRICT,11.2588,75.7804,True,Coastal management area
+DOC003,Alappuzha,DISTRICT,9.4981,76.3388,True,Backwater management
+DOC003,Kannur,DISTRICT,11.8745,75.3704,True,Coastal area
+DOC003,Thrissur,DISTRICT,10.5276,76.2144,True,Watershed management
+DOC003,Palakkad,DISTRICT,10.7867,76.6548,True,Watershed management

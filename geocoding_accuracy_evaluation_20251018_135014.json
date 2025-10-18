@@ -1,0 +1,32 @@
+{
+  "evaluation_timestamp": "2025-10-18T13:50:14.875058",
+  "entity_recognition": {
+    "true_positives": 13,
+    "false_positives": 0,
+    "false_negatives": 10,
+    "precision": 1.0,
+    "recall": 0.5652173913043478,
+    "f1_score": 0.7222222222222222
+  },
+  "classification_accuracy": {
+    "correct_classifications": 13,
+    "total_entities": 13,
+    "accuracy_percentage": 100.0
+  },
+  "geocoding_performance": {
+    "successful_geocoding": 13,
+    "total_entities": 13,
+    "success_rate_percentage": 100.0
+  },
+  "coordinate_accuracy": {
+    "accurate_coordinates": 13,
+    "total_geocoded": 13,
+    "accuracy_percentage": 100.0
+  },
+  "overall_system_performance": {
+    "overall_accuracy_percentage": 79.59183673469387,
+    "total_ground_truth_entities": 23,
+    "total_predicted_entities": 13,
+    "matched_entities": 13
+  }
+}

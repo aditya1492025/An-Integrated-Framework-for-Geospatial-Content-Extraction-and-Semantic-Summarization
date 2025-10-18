@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import streamlit as st
 
-API_KEY = "your gcse api key"
-CSE_ID = "your gcse id"
+API_KEY = "AIzaSyA-s34CqWTEwC4kWjKja7NzSDyXZHIV5NY"
+CSE_ID = "95b481b4b1cfa4481"
 
 def search_google(query):
     search_url = f"https://www.googleapis.com/customsearch/v1?q={query}&key={API_KEY}&cx={CSE_ID}"
