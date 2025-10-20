@@ -105,7 +105,15 @@ filtering, predefined location database matching, and geocoding validation steps
 
 ## 🎯 **CONFERENCE PAPER COMPARISON TABLE**
 
-### **Ready-to-Use Results Table**
+### **Markdown Table (for viewing in GitHub)**
+
+| **Evaluation Context** | **Precision** | **Recall** | **F1-Score** | **Dataset** |
+|------------------------|---------------|------------|--------------|-------------|
+| **Training Validation** | 0.889 | 0.924 | **0.906** | DocBin validation set |
+| **Real-World Deployment** | **1.000** | 0.565 | **0.722** | Ground truth (23 entities) |
+| **Performance Gap** | **+11.1%** | **-35.9%** | **-18.4%** | Production assessment |
+
+### **LaTeX Table (for conference paper)**
 ```latex
 \begin{table}[htbp]
 \centering
