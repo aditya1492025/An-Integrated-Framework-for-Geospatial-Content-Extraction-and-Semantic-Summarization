@@ -49,13 +49,21 @@
 
 ## 🎯 Geocoding Accuracy Assessment
 
-### Entity Recognition Performance
-| **Metric** | **Value** | **Performance Level** | **Description** |
-|------------|-----------|----------------------|-----------------|
-| **Precision** | 1.000 | 🎯 **Perfect** | No false positives |
-| **Recall** | 0.565 | ✅ **Good** | 56.5% entity capture |
-| **F1-Score** | 0.722 | 📊 **Good** | Balanced performance |
-| **Support** | 23 entities | 📍 **Comprehensive** | Ground truth coverage |
+### Training Validation vs. Real-World Deployment Comparison
+
+| **Evaluation Context** | **Precision** | **Recall** | **F1-Score** | **Accuracy** | **Dataset Type** |
+|------------------------|---------------|------------|--------------|--------------|------------------|
+| **Training Validation Set** | 0.889 | 0.924 | **0.906** | ~100% | Annotated DocBin validation data |
+| **Real-World Deployment** | **1.000** | 0.565 | **0.722** | 79.6% | Ground truth evaluation (23 entities) |
+| **Performance Gap** | **+11.1%** | **-35.9%** | **-18.4%** | **-20.4%** | Expected production degradation |
+
+### Entity Recognition Performance Analysis
+| **Metric** | **Training Validation** | **Real-World Deployment** | **Performance Assessment** |
+|------------|------------------------|----------------------------|---------------------------|
+| **Precision** | 0.889 | **1.000** | 🎯 **Improved** (Pipeline filtering removes false positives) |
+| **Recall** | 0.924 | 0.565 | ⚠️ **Reduced** (Conservative deployment, stricter matching) |
+| **F1-Score** | **0.906** | 0.722 | 📊 **Good** (Acceptable production performance) |
+| **Dataset Context** | Controlled annotation | Realistic document processing | Production-ready validation |
 
 ### Classification & Coordinate Accuracy
 | **Accuracy Type** | **Value** | **Performance** | **Impact** |

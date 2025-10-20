@@ -55,13 +55,20 @@
 
 ## 🎯 GEOCODING ACCURACY ASSESSMENT
 
-### Table 4: Entity Recognition Performance
-| **Accuracy Metric** | **Value** | **Performance Level** | **Description** |
-|----------------------|-----------|----------------------|-----------------|
-| **Precision** | 1.000 | 🎯 Perfect | Zero false positive entities |
-| **Recall** | 0.565 | ✅ Good | 56.5% entity detection coverage |
-| **F1-Score** | 0.722 | 📊 Good | Balanced precision-recall performance |
-| **Ground Truth Support** | 23 entities | 📍 Comprehensive | Diverse geographic coverage |
+### Table 4: Training Validation vs. Real-World Deployment Performance
+| **Evaluation Context** | **Precision** | **Recall** | **F1-Score** | **Accuracy** | **Dataset Type** |
+|------------------------|---------------|------------|--------------|--------------|------------------|
+| **Training Validation Set** | 0.889 | 0.924 | **0.906** | ~100% | Annotated DocBin validation data |
+| **Real-World Deployment** | **1.000** | 0.565 | **0.722** | 79.6% | Ground truth evaluation (23 entities) |
+| **Performance Difference** | **+11.1%** | **-35.9%** | **-18.4%** | **-20.4%** | Expected production degradation |
+
+### Table 4a: Entity Recognition Performance Analysis
+| **Accuracy Metric** | **Training Validation** | **Real-World Deployment** | **Performance Assessment** |
+|----------------------|------------------------|----------------------------|---------------------------|
+| **Precision** | 0.889 | **1.000** | 🎯 **Improved** (Pipeline filtering) |
+| **Recall** | 0.924 | 0.565 | ⚠️ **Reduced** (Conservative deployment) |
+| **F1-Score** | **0.906** | 0.722 | 📊 **Good** (Production acceptable) |
+| **Ground Truth Support** | DocBin validation set | 23 real-world entities | 📍 Comprehensive evaluation |
 
 ### Table 5: Geographic Classification & Coordinate Accuracy
 | **Accuracy Type** | **Value** | **Performance Rating** | **Impact Assessment** |
