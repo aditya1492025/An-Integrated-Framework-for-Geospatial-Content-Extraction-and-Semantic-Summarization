@@ -171,11 +171,9 @@ This framework is developed for research purposes. The evaluation demonstrates e
 
 ## 📞 Contact
 
-For questions about implementation or research collaboration, please refer to the paper submission details.
+For questions about implementation or research collaboration, please contact to aditya siras(adityasiras@gmail.com).
 
 ---
-
-**Citation**: *Details will be provided upon paper acceptance*
 
 If you are not an IEEE reviewer but wish to view, use, or cite this work, you must obtain **explicit written permission** from the authors.
 
@@ -188,5 +186,4 @@ For permissions or inquiries, please contact:
 
 ## 📎 Notes
 
-- This repository may be removed or made private after the peer review process ends.
 - Please respect the boundaries of the academic review process and intellectual ownership.
